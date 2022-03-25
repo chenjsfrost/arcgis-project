@@ -1,0 +1,9 @@
+@import '../../node_modules/@arcgis/core/assets/esri/themes/dark/main.css';
+
+.esri-view .esri-view-surface--inset-outline:focus::after {
+	outline: none !important;
+}‍‍‍
+
+.arcgis-scrollbar::-webkit-scrollbar:horizontal {
+	display: none;
+}
